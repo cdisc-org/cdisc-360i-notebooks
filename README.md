@@ -50,7 +50,7 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
     ![MyDrive/resources/ directory structure](images/resources.png)
 
-    This will ensure the code cells in the CDISC_360i_Protocol_to_Submission notebook.
+    This will ensure the code cells in the CDISC_360i_Protocol_to_Submission notebook execute correctly.
 
 4. Copy the CDISC_360i_Protocol_to_Submission notebook to the myDrive/Colab Notebooks directory:
 
