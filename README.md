@@ -8,7 +8,7 @@
 
 <p align="center">
     <a href="https://colab.research.google.com/">
-        <img src="images/icons8-google-colab-48.png"/ alt="Google Colab" />
+        <img src="images/icons8-google-colab-48.png" alt="Google Colab" />
     </a>
 </p>
 
