@@ -66,14 +66,19 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
 
 **Notes:**
-1. The notebook relies upon access to your Google Drive.
-2. If you would like to access the OpenStudyBuilder API, you must supply a BEARER_TOKEN.
-3. The *core.tar.gz* used in the notebook is a distribution of the CORE engine built for the Google Colab environment as of October 2025.  Google Colab environment future updates may require the creation of a new distribution of the CORE engine (links are included in the notebook).
+* The notebook relies upon access to your Google Drive.
+* If you would like to access the OpenStudyBuilder API, you must supply a BEARER_TOKEN.
+* The *core.tar.gz* used in the notebook is a distribution of the CORE engine built for the Google Colab environment as of October 2025.  Google Colab environment future updates may require the creation of a new distribution of the CORE engine (links are included in the notebook).
 
 #### CDISC_360i_Object_Store_Automation ####
 
 1. Clone the repository or download notebook and resources.
 2. Access [Google Colaboratory](https://colab.google.com/) using your Google account.
+3. Copy notebook into Google Colab environment.
+4. Follow instructions in the Notebook.
+
+**Notes:**
+* Once the directories are created in *Google MyDrive*, copy the *Definte-Template.json* file and the *input_files* directory into the */content/drive/MyDrive/TMF* dirctory.
 
 
 # Resources #
