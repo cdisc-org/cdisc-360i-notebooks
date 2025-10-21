@@ -45,7 +45,7 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
 1. Clone the repository or download notebook and resources.
 2. Access [Google Colaboratory](https://colab.google.com/) using your Google account.
-3. Setup MyDrive to match URL requirements of notebook.  The directory structure in GooGle Drive should appear as:
+3. Setup MyDrive to match URL requirements of notebook.  The directory structure in Google Drive should appear as:
 
 
     ![MyDrive/resources/ directory structure](images/resources.png)
