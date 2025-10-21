@@ -1,6 +1,19 @@
 <p align="center">
-<img src="images/CDISC-360i-Logo.png" alt="360i-logo" width="200" height="200">
+    <a href="www.cdisc.org">
+        <img src="images/CDISC-360i-Logo.png" alt="CDISC 360i" width="200" height="200">
+    </a>
 </p>
+
+---
+
+<p align="center">
+    <a href="https://colab.research.google.com/">
+        <img src="images/icons8-google-colab-48.png"/ alt="Google Colab" />
+    </a>
+</p>
+
+
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120)
 
 # Abstract #
 
@@ -28,15 +41,39 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
 ### How To ###
 
-1. Login to your Google Colab environment
-2. Copy the *CDISC_360i_Object_Store_Automation.ipynb* notebook into the environment.
-3.
+#### CDISC_360i_Protocol_to_Submission Notebook ####
 
-#### Notes ####
+1. Clone the repository or download notebook and resources.
+2. Access [Google Colaboratory](https://colab.google.com/) using your Google account.
+3. Setup MyDrive to match URL requirements of notebook.  The directory structure in GooGle Drive should appear as:
+
+
+    ![MyDrive/resources/ directory structure](images/resources.png)
+
+    This will ensure the code cells in the CDISC_360i_Protocol_to_Submission notebook.
+
+4. Copy the CDISC_360i_Protocol_to_Submission notebook to the myDrive/Colab Notebooks directory:
+
+    ![MyDrive/Colab Notebooks directory structure](images/ColabNotebooks.png)
+
+5. A custom distribution of the CDISC CORE Rules Engine will be required for execution of CORE Validation Rules in the notebooks.  This distribution will need to be built for the system hosting the notebooks.  Instructions are available here:
+
+    https://github.com/cdisc-org/cdisc-rules-engine/blob/main/README_Build_Executable.md
+
+    The custom distribution used in the notebooks is too large for GitHub.
+
+    Ensure the new distribution is renamed as core.tar.gz and stored as shown in the image above.
+
+
+**Notes:**
 1. The notebook relies upon access to your Google Drive.
-2. If you would like to access the OpenStudyBuilder API, you must supply your BEARER_TOKEN.
+2. If you would like to access the OpenStudyBuilder API, you must supply a BEARER_TOKEN.
 3. The *core.tar.gz* used in the notebook is a distribution of the CORE engine built for the Google Colab environment as of October 2025.  Google Colab environment future updates may require the creation of a new distribution of the CORE engine (links are included in the notebook).
 
+#### CDISC_360i_Object_Store_Automation ####
+
+1. Clone the repository or download notebook and resources.
+2. Access [Google Colaboratory](https://colab.google.com/) using your Google account.
 
 
 # Resources #
