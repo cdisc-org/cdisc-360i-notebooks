@@ -52,33 +52,41 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
     This will ensure the code cells in the CDISC_360i_Protocol_to_Submission notebook execute correctly.
 
-4. Copy the CDISC_360i_Protocol_to_Submission notebook to the myDrive/Colab Notebooks directory:
+4. Copy the CDISC_360i_Protocol_to_Submission notebook to the MyDrive/Colab Notebooks directory:
 
     ![MyDrive/Colab Notebooks directory structure](images/ColabNotebooks.png)
 
-5. A custom distribution of the CDISC CORE Rules Engine will be required for execution of CORE Validation Rules in the notebooks.  This distribution will need to be built for the system hosting the notebooks.  Instructions are available here:
 
-    https://github.com/cdisc-org/cdisc-rules-engine/blob/main/README_Build_Executable.md
-
-    The custom distribution used in the notebooks is too large for GitHub.
-
-    Ensure the new distribution is renamed as core.tar.gz and stored as shown in the image above.
+    
 
 
 **Notes:**
 * The notebook relies upon access to your Google Drive.
 * If you would like to access the OpenStudyBuilder API, you must supply a BEARER_TOKEN.
-* The *core.tar.gz* used in the notebook is a distribution of the CORE engine built for the Google Colab environment as of October 2025.  Google Colab environment future updates may require the creation of a new distribution of the CORE engine (links are included in the notebook).
+* A custom distribution of the CDISC CORE Rules Engine will be required for execution of CORE Validation Rules in the notebooks.  This release is available here:
+
+    https://github.com/cdisc-org/cdisc-rules-engine/releases
+
+    v 0.13.0 is the supported version and the zip archive is named core-ubuntu-22.04-tar.zip
 
 #### CDISC_360i_Object_Store_Automation ####
 
 1. Clone the repository or download notebook and resources.
 2. Access [Google Colaboratory](https://colab.google.com/) using your Google account.
-3. Copy notebook into Google Colab environment.
+3. Copy the CDISC_360i_Object_Store_Automation.ipynb notebook to Google Colab.
+3. Copy the cloned *input_files* directory and the *Define-Tmeplate.json* file into a newly created *TMF* directory in Google Colab environment as shown in the image below.
+
+    ![alt text](images/image.png)
+
 4. Follow instructions in the Notebook.
 
 **Notes:**
-* Once the directories are created in *Google MyDrive*, copy the *Definte-Template.json* file and the *input_files* directory into the */content/drive/MyDrive/TMF* dirctory.
+* Once the directories are created in *Google MyDrive*, copy the *Definte-Template.json* file and the *input_files* directory into the */content/drive/MyDrive/TMF* dirctory
+* A custom distribution of the CDISC CORE Rules Engine will be required for execution of CORE Validation Rules in the notebooks.  This release is available here:
+
+    https://github.com/cdisc-org/cdisc-rules-engine/releases
+
+    v 0.13.0 is the supported version and the zip archive is named core-ubuntu-22.04-tar.zip
 
 
 # Resources #
