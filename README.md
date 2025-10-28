@@ -32,7 +32,7 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 |CDISC_360i_Protocol_to_Submission          |* Shown at CDISC Interchange                                       |
 |                                           |* Study artifacts stored on Colab filesystem (will not persist)    |
 |                                           |* Development has stopped for this version                         |
-|CDISC_360i_Object_Store_Automation         |* Study artifacts  Google MyDrive Object Store                     |
+|CDISC_360i_Object_Store_Automation         |* Study artifacts stored in Google MyDrive Object Store            |
 |                                           |* Requires Colab env setup for Google Drive                        |
 |                                           |* Development will continue as new tools and features become available |
 
