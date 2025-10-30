@@ -30,12 +30,9 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 |Notebook                                   |Notes
 |-------------------------------------------|-------------------------------------------------------------------|
 |CDISC_360i_Protocol_to_Submission          |* Shown at CDISC Interchange                                       |
-|                                           |* Copies study artifacts to local filesystem prior to copying to Object Store  |
-|                                           |* Uses Google Drive as Object Store                                |
-|                                           |* Requires Colab env setup for Google Drive                        |
+|                                           |* Study artifacts stored on Colab filesystem (will not persist)    |
 |                                           |* Development has stopped for this version                         |
-|CDISC_360i_Object_Store_Automation         |* Does not copy study artifacts to filesystem, but works entirely with objects in Object Store    |
-|                                           |* Uses Google Drive as Object Store                                |
+|CDISC_360i_Object_Store_Automation         |* Study artifacts stored in Google MyDrive Object Store            |
 |                                           |* Requires Colab env setup for Google Drive                        |
 |                                           |* Development will continue as new tools and features become available |
 
@@ -44,12 +41,10 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
 #### CDISC_360i_Protocol_to_Submission Notebook ####
 
-1. Clone the repository or download notebook.
-2. Access [Google Colaboratory](https://colab.google.com/) using your Google account.
+1. Clone the repository or download notebook *CDISC_360i_Protocol_to_Submission.ipynb*
+2. Access [Google Colaboratory](https://colab.google.com/) using your Google account
 3. Open the CDISC_360i_Protocol_to_Submission notebook in Google Colab.
 4. Follow the instructions in the notebook.
-
-
 
 **Notes:**
 * If you would like to access the OpenStudyBuilder API, you must supply an OSB_BEARER_TOKEN.
@@ -57,28 +52,25 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
     https://github.com/cdisc-org/cdisc-rules-engine/releases
 
-    v0.12.0 is the supported version and the zip archive is named core-ubuntu-22.04-tarball.zip
+    v0.13.0 is the supported version and the zip archive is named core-ubuntu-22.04-tarball.zip
 
 
 
 #### CDISC_360i_Object_Store_Automation ####
 
-1. Clone the repository or download notebook and resources.
-2. Access [Google Colaboratory](https://colab.google.com/) using your Google account.
-3. Copy the CDISC_360i_Object_Store_Automation.ipynb notebook to Google Colab.
-3. Copy the cloned *input_files* directory, SDTM_CORE_Rules.csv, and the *Define-Template.json* file into a newly created *TMF* directory in Google Colab environment as shown in the image below.
+1. Clone the repository or download notebook *CDISC_360i_Object_Store_Automation.ipynb*
+2. Access [Google Colaboratory](https://colab.google.com/) using your Google account
+3. Copy the *CDISC_360i_Object_Store_Automation.ipynb* notebook to Google Colab
+4. Follow the instructions in the notebook.
 
-    ![alt text](images/image.png)
 
-4. Follow instructions in the Notebook.
 
 **Notes:**
-* Once the directories are created in *Google MyDrive*, copy the *Definte-Template.json* file and the *input_files* directory into the */content/drive/MyDrive/TMF* dirctory
 * A custom distribution of the CDISC CORE Rules Engine will be required for execution of CORE Validation Rules in the notebooks.  The Zip archive is downloaded when using the notebook. Releases of the CDISC Open Rules Engine is also available here:
 
     https://github.com/cdisc-org/cdisc-rules-engine/releases
 
-    v0.12.0 is the supported version and the zip archive is named core-ubuntu-22.04-tarball.zip
+    v0.13.0 is the supported version and the zip archive is named core-ubuntu-22.04-tarball.zip
 
 # Resources #
 **Other GitHub projects used in the notebooks**
