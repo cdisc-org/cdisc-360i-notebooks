@@ -29,15 +29,34 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
 |Notebook                                   |Notes
 |-------------------------------------------|-------------------------------------------------------------------|
-|CDISC_360i_Protocol_to_Submission          |* Shown at CDISC Interchange                                       |
-|                                           |* Study artifacts stored on Colab filesystem (will not persist)    |
-|                                           |* Development has stopped for this version                         |
 |CDISC_360i_Object_Store_Automation         |* Study artifacts stored in Google MyDrive Object Store            |
 |                                           |* Requires Colab env setup for Google Drive                        |
 |                                           |* Development will continue as new tools and features become available |
+|CDISC_360i_Protocol_to_Submission          |* DEPRECATED (changes to dependencies prevent execution)            |
+|                                           |* Shown at CDISC Interchange                                       |
+|                                           |* Study artifacts stored on Colab filesystem (will not persist)    |
+|                                           |* Development has stopped for this version                         |
+
 
 
 ### How To ###
+
+
+#### CDISC_360i_Object_Store_Automation ####
+
+1. Clone the repository or download notebook *CDISC_360i_Object_Store_Automation.ipynb*
+2. Access [Google Colaboratory](https://colab.google.com/) using your Google account
+3. Copy the *CDISC_360i_Object_Store_Automation.ipynb* notebook to Google Colab
+4. Follow the instructions in the notebook.
+
+
+
+**Notes:**
+* A custom distribution of the CDISC CORE Rules Engine will be required for execution of CORE Validation Rules in the notebooks.  The Zip archive is downloaded when using the notebook. Releases of the CDISC Open Rules Engine is also available here:
+
+    https://github.com/cdisc-org/cdisc-rules-engine/releases
+
+    v0.13.0 is the supported version and the zip archive is named core-ubuntu-22.04-tarball.zip
 
 #### CDISC_360i_Protocol_to_Submission Notebook ####
 
@@ -56,21 +75,6 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
 
 
-#### CDISC_360i_Object_Store_Automation ####
-
-1. Clone the repository or download notebook *CDISC_360i_Object_Store_Automation.ipynb*
-2. Access [Google Colaboratory](https://colab.google.com/) using your Google account
-3. Copy the *CDISC_360i_Object_Store_Automation.ipynb* notebook to Google Colab
-4. Follow the instructions in the notebook.
-
-
-
-**Notes:**
-* A custom distribution of the CDISC CORE Rules Engine will be required for execution of CORE Validation Rules in the notebooks.  The Zip archive is downloaded when using the notebook. Releases of the CDISC Open Rules Engine is also available here:
-
-    https://github.com/cdisc-org/cdisc-rules-engine/releases
-
-    v0.13.0 is the supported version and the zip archive is named core-ubuntu-22.04-tarball.zip
 
 # Resources #
 **Other GitHub projects used in the notebooks**
