@@ -61,7 +61,7 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 1. Clone the repository or download notebook *CDISC_360i_Object_Store_Automation.ipynb*
 2. Access [Google Colaboratory](https://colab.google.com/) using your Google account
 3. Copy the *CDISC_360i_Object_Store_Automation.ipynb* notebook to Google Colab
-4. Folow the instructions in the notebook.
+4. Follow the instructions in the notebook.
 
 
 
