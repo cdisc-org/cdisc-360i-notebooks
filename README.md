@@ -41,7 +41,6 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
 ### How To ###
 
-
 #### CDISC_360i_Object_Store_Automation ####
 
 1. Clone the repository or download notebook *CDISC_360i_Object_Store_Automation.ipynb*
@@ -52,20 +51,6 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
 
 **Notes:**
-* A custom distribution of the CDISC CORE Rules Engine will be required for execution of CORE Validation Rules in the notebooks.  The Zip archive is downloaded when using the notebook. Releases of the CDISC Open Rules Engine is also available here:
-
-    https://github.com/cdisc-org/cdisc-rules-engine/releases
-
-    v0.13.0 is the supported version and the zip archive is named core-ubuntu-22.04-tarball.zip
-
-#### CDISC_360i_Protocol_to_Submission Notebook ####
-
-1. Clone the repository or download notebook *CDISC_360i_Protocol_to_Submission.ipynb*
-2. Access [Google Colaboratory](https://colab.google.com/) using your Google account
-3. Open the CDISC_360i_Protocol_to_Submission notebook in Google Colab.
-4. Follow the instructions in the notebook.
-
-**Notes:**
 * If you would like to access the OpenStudyBuilder API, you must supply an OSB_BEARER_TOKEN.
 * A custom distribution of the CDISC CORE Rules Engine will be required for execution of CORE Validation Rules in the notebooks.  The Zip archive is downloaded when using the notebook. Releases of the CDISC Open Rules Engine is also available here:
 
@@ -73,7 +58,18 @@ Currently, these notebooks are designed to execute in the [Google Colaboratory](
 
     v0.13.0 is the supported version and the zip archive is named core-ubuntu-22.04-tarball.zip
 
+#### CDISC_360i_Protocol_to_Submission Notebook ####
+This notebook is now deprecated.  Use the CDISC_360i_Object_Store_Automation notebook instead.
 
+    v0.13.0 is the supported version and the zip archive is named core-ubuntu-22.04-tarball.zip
+
+# Wiki
+
+There are new Wiki pages included within this repository.  These pages include:
+
+* Helpful instructions on getting started with Git and GitHub
+* CDISC 360i Phase 1 and Phase 2 GitHub repositories used
+* Content presented at PHUSE Connect 2026 for Phase 1
 
 
 # Resources #
